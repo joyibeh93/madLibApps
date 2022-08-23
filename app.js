@@ -1,12 +1,6 @@
- // mainStory = Ralia is the daughter of a blind woman and a man with a broken back who goes missing in the
-// forest while arranging firewood and is taken in by an old witch who offers her accomdation 
-//in return for Ralia’s singing voice.//Fews days later Ralia runs away from the witch house.
-// She is taken in by a hunter and his family which Ralia befriends the hunter daughter.
-// One day while playing together, She is knocked down by a prince who takes her his home to nurse her.
-
-//After recovering Ralia is taken back home to her village where she reunites with her parents.
 
 
+let numberOfQuestion =11;
 let userInputs=[];
 
 // The Plot Ralia Story
@@ -20,3 +14,16 @@ she is taken by a  ${userInputs[7]} and his family which Ralia befriends the ${u
   After recovering ${userInputs[10]}  was taken back home to her ${userInputs[11]} where she unites with her parents"</h2>`;
 console.log(originalStory);
 
+
+
+
+
+
+
+ // mainStory = Ralia is the daughter of a blind woman and a man with a broken back who goes missing in the
+// forest while arranging firewood and is taken in by an old witch who offers her accomdation 
+//in return for Ralia’s singing voice.//Fews days later Ralia runs away from the witch house.
+// She is taken in by a hunter and his family which Ralia befriends the hunter daughter.
+// One day while playing together, She is knocked down by a prince who takes her his home to nurse her.
+
+//After recovering Ralia is taken back home to her village where she reunites with her parents.
