@@ -1,9 +1,17 @@
 
-
+// number of questions to asks
 let numberOfQuestion =11;
+
+//user prompt
+let userinput =`please enter a verb or noun`;
+
+// the  questions
+let questionArray = []
+// an array  that stores user input
+`for (let i = questions; i > 0; i--)`
 let userInputs=[];
 
-// The Plot Ralia Story
+// The Plot Ralia Story of Ralia the sugar girl
 let originalStory = `<h2>Ralia is the ${userInputs[0]},of a blind ${userInputs[1]} and a 
 ${userInputs[2]} with a broken back who goes ${userInputs[3]} in the forest while arranging 
 ${userInputs[4]} and is taken in by an old ${userInputs[5]} who offer her accommodation in 
@@ -18,7 +26,7 @@ console.log(originalStory);
 
 
 
-
+// the main plot story of Ralia the sugar girl
 
  // mainStory = Ralia is the daughter of a blind woman and a man with a broken back who goes missing in the
 // forest while arranging firewood and is taken in by an old witch who offers her accomdation 
