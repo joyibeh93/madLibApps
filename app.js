@@ -2,13 +2,18 @@
 // number of questions to asks
 let numberOfQuestion =11;
 
+//loop counter
+let questionCounter = 0;
 //user prompt
 let userinput =`please enter a verb or noun`;
 
 // the  questions
 let questionArray = []
 // an array  that stores user input
-`for (let i = questions; i > 0; i--)`
+for (let i = questionArray; i >= 0; i--){
+  console.log(i);
+ console.log (questionCounter = +1);
+}
 let userInputs=[];
 
 // The Plot Ralia Story of Ralia the sugar girl
