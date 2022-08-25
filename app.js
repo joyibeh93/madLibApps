@@ -1,4 +1,7 @@
 
+"use strict";
+
+window.onload = () => {
 // number of questions to asks
 let numberOfQuestion =11;
 
@@ -9,44 +12,31 @@ let userinput =`please enter a verb or noun`;
 
 // the  questions
 let questionArray = [
- console.log( `${userinput}child ("daughter", "son-in-law" etc)`),
-  console.log( `${userinput} person( "cat","woman","boat")`),
-  // `${solicitation} computer-specific model ("commodore 64" etc)`,
-  // `${solicitation} famous school`,
-  // `${solicitation} word for people you know (friends, family etc)`,
-  // `${solicitation} type of bug`,
-  // `${solicitation} computer-specific part (plural-tense, ie "screens")`,
-  // `${solicitation} profession (plural-tense, i.e. "painters")`,
-  // `${solicitation} type of book`,
-  // `${solicitation} verb (past-tense)`,
-  // `${solicitation}nother verb (past-tense)`,
-  // `${solicitation}n adjective`,
-  // `${solicitation} pronoun`,
-  // `${solicitation} noun`,
-  // `${solicitation} verb`,
-  // `${solicitation} month, day and year (long-form, ie January, 1 2000)`,
-  // `${solicitation} number`,
-  // `${solicitation} noun (plural-tense)`,
-  // `${solicitation} famous museum`,
-  // `${solicitation} city, state (ie Washington, D.C)`,
-  // `${solicitation}n adjectiv`,
-  // `${solicitation} physics-specific noun (ie "gravity")`,
-  // `${solicitation} person's full name`,
-  // `${solicitation} number`,
-  // `${solicitation} type of document (ie "poem", "essay" etc)`,
-  // `${solicitation} bad thing (ie an "error")`,
-  // `${solicitation}n old machine`,
-  // `${solicitation} tool used for hunting`,
-  // `${solicitation} verb (infinitive-tense)`,
+  ( `${userinput}child ("daughter", "son-in-law" etc)`),
+  ( `${userinput} person( "cat","woman","boat")`),
+  (`${userinput}person("institution","school","man")`),
+  (`${userinput}verb("singing","missing","running")`),
+  (`${userinput}noun("firewood","water","snake")`),
+  (`${userinput}evil("young","energetic","witch")`),
+  (`${userinput}verb("voice","step","chair")`),
+  (`${userinput}huntingjob("hunter","farmer","teacher")`),
+  (`${userinput}verb("running","playing","swimming")`),
+  (`${userinput}noun("boy","horse","prince")`),
+  (`${userinput}popular("Ralia","shiwa","suzzan")`),
+  (`${userinput}settlement("village","town","city")`)
+
 ];
+let userInputs=[];
 // an array  that stores user input
 for (let i = numberOfQuestion; i >= 0; i--){
-  console.log(i);
-  console.log(questionArray[questionArray] + `(${numberOfQuestion} questions left)`)
-  console.log (questionCounter =questionCounter +1);
-  console.log(numberOfQuestion--)
+  //console.log(i);
+  alert(questionArray[questionArray] + `(${numberOfQuestion} questions left)`);
+  userInputs.push(prompt(questionArray[questionCounter] + `... (${numberOfQuestion} questions left)`));
+  console.log(userInputs);
+  console.log(questionCounter =questionCounter +1);
+  console.log(numberOfQuestion--);
 }
-let userInputs=[];
+
 
 // The Plot Ralia Story of Ralia the sugar girl
 let originalStory = `<h2>Ralia is the ${userInputs[0]},of a blind ${userInputs[1]} and a 
@@ -57,18 +47,26 @@ she is taken by a  ${userInputs[7]} and his family which Ralia befriends the ${u
 "</h2>
  <h2>One day while"${userInputs[8]} together" she is knocked down by the  ${userInputs[9]},who takes her to his home to nurse her.
   After recovering ${userInputs[10]}  was taken back home to her ${userInputs[11]} where she unites with her parents"</h2>`;
-console.log(originalStory);
 
+  // End of User Inputs
+  alert(
+    "All done! Ready for your totally-accurate, not-at-all confusing history of tech??"
+  );
+
+  // Output
+  console.log(originalStory);
+  document.write(mainStory);
+};
 
 
 
 
 // the main plot story of Ralia the sugar girl
 
- // mainStory = Ralia is the daughter of a blind woman and a man with a broken back who goes missing in the
-// forest while arranging firewood and is taken in by an old witch who offers her accomdation 
-//in return for Ralia’s singing voice.//Fews days later Ralia runs away from the witch house.
-// She is taken in by a hunter and his family which Ralia befriends the hunter daughter.
-// One day while playing together, She is knocked down by a prince who takes her his home to nurse her.
+ mainStory = `Ralia is the daughter of a blind woman and a man with a broken back who goes missing in the
+forest while arranging firewood and is taken in by an old witch who offers her accomdation 
+in return for Ralia's singing voice.//Fews days later Ralia runs away from the witch house.
+ She is taken in by a hunter and his family which Ralia befriends the hunter daughter.
+One day while playing together, She is knocked down by a prince who takes her his home to nurse her.
 
-//After recovering Ralia is taken back home to her village where she reunites with her parents.
+After recovering Ralia is taken back home to her village where she reunites with her parents`
